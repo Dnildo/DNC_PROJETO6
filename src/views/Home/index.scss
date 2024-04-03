@@ -1,0 +1,34 @@
+@use "../../sass/variables" as *;
+
+
+.home {
+  &__products {
+    padding: 0 166px 166px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    gap: 15rem;
+    justify-content: center;
+    background-image: url('../../assets/produtos-organizar.png');
+  background-size: cover;
+  background-position: 40%;
+  background-repeat: no-repeat;
+  }
+  &__card {
+    width: 350px;
+    height: 380px;
+    border-radius: 8px;
+  }
+
+  &__card-description {
+    padding: 16px;
+    text-align: center;
+    p {
+      padding-bottom: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}

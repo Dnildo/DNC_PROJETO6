@@ -1,0 +1,17 @@
+@use "../../sass/variables" as *;
+
+.header {
+    width: 100%;
+    padding: 50px;
+    margin-left: 65%;
+    background-color: $header-background;
+}
+
+
+@media (max-width: 480px) {
+    .header { 
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}

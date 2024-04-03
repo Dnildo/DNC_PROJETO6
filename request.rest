@@ -1,0 +1,28 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "titulo": "Algum serviço",
+    "price": 1400,
+    "cor": "red",
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/34343435
+
+###
+DELETE http://localhost:3000/api/services/34343435
+
+###
+PUT http://localhost:5501/api/services
+Content-Type: application/json
+
+{
+    "titulo": "Algum serviço",
+    "price": 1400,
+    "marca": "red",
+}
