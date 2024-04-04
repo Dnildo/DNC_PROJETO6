@@ -1,7 +1,12 @@
 <h1>PROJETO 6 DNC</h1>
+<p>Banco de dados para armazenar e gerenciar informações
+de maneira eficiente e pratique suas habilidades em modelagem de
+dados, desenvolvido com APIs e uso de ferramentas de
+integração.</p>
+<p>Linguagens utilizadas: React.js, mysql2, scss s</p>
+<p>Ambiente de Desenvolvimento: https://code.visualstudio.com/download</p>
 
 Currently, two official plugins are available:
 <img src="public/Captura de Tela (1).png">
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
   assece:http://localhost:5501/
